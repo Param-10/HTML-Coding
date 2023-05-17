@@ -1,0 +1,45 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and center align text in the header */
+  header {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Add some padding and center align text in the main section */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Add some space between paragraphs */
+  p {
+    margin-bottom: 10px;
+  }
