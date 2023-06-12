@@ -3,30 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="website.css">
+  <title>My Shopping Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Cart</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h1>Welcome to My Website</h1>
-      <p>This is the main content of the website.</p>
+    <section class="products">
+      <h1>Shop</h1>
+      <ul>
+        <li>
+          <h2>Product 1</h2>
+          <img src="product1.jpg" alt="Product 1">
+          <p>Description of product 1</p>
+          <p>Price: $50.00</p>
+          <button>Add to cart</button>
+        </li>
+        <li>
+          <h2>Product 2</h2>
+          <img src="product2.jpg" alt="Product 2">
+          <p>Description of product 2</p>
+          <p>Price: $75.00</p>
+          <button>Add to cart</button>
+        </li>
+        <!-- Add more product listings here -->
+      </ul>
+    </section>
+
+    <section class="cart">
+      <h2>Cart</h2>
+      <ul>
+        <!-- Empty cart message here -->
+      </ul>
+      <p>Total: $0.00</p>
+      <button>Checkout</button>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
+    <p>&copy; 2023 My Shopping Website. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>

@@ -1,45 +1,92 @@
 /* Reset default margin and padding */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Set a background color and center align text in the header */
-  header {
-    background-color: #333;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  /* Style the navigation menu */
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Add some padding and center align text in the main section */
-  main {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  /* Style the footer */
-  footer {
-    background-color: #f2f2f2;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  /* Add some space between paragraphs */
-  p {
-    margin-bottom: 10px;
-  }
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and center align text in the header */
+header {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Add some space and style for the product listings */
+.products {
+  padding: 20px;
+}
+
+.products ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.products li {
+  margin-bottom: 20px;
+  width: calc(33.33% - 10px);
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.products h2 {
+  margin-bottom: 10px;
+}
+
+.products img {
+  max-width: 100%;
+}
+
+.products button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Style the cart section */
+.cart {
+  padding: 20px;
+}
+
+.cart ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.cart p {
+  margin-bottom: 10px;
+}
+
+.cart button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Add some space in the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
